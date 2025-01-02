@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="crdroid-fork"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/13.0" />
+
+  <project path="build/make" name="crdroid-13-fork/android_build" groups="pdk" remote="crdroid-fork" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/soong" name="crdroid-13-fork/android_build_soong" groups="pdk,tradefed" remote="crdroid-fork" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="frameworks/base" name="crdroid-13-fork/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
+  <project path="libcore" name="crdroid-13-fork/android_libcore" groups="pdk" remote="crdroid-fork" />
+  <project path="packages/apps/Settings" name="crdroid-13-fork/android_packages_apps_Settings" groups="pdk-fs" remote="crdroid-fork" />
+  <project path="packages/modules/Bluetooth" name="crdroid-13-fork/android_packages_modules_Bluetooth" groups="pdk" remote="crdroid-fork" />
+  <project path="packages/modules/Wifi" name="crdroid-13-fork/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
+  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" groups="pdk" remote="crdroid-fork" />
+
+</manifest>
