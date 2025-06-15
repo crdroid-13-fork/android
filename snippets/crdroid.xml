@@ -52,7 +52,6 @@
   <project path="hardware/qcom-caf/sm8350/media" name="crdroidandroid/android_hardware_qcom_media" groups="qcom,lahaina" revision="13.0-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8550/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="13.0-caf-sm8550" />
 
-  <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" groups="pdk" remote="crdroid" />
   <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" groups="pdk" remote="crdroid" />
   <project path="frameworks/opt/net/ims" name="crdroidandroid/android_frameworks_opt_net_ims" groups="pdk" remote="crdroid" />
@@ -81,7 +80,6 @@
   <project path="packages/apps/Updater" name="crdroidandroid/android_packages_apps_Updater" remote="crdroid" />
   <project path="packages/apps/WallpaperPicker2" name="crdroidandroid/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="crdroid" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="crdroid" />
-  <project path="packages/modules/Connectivity" name="crdroidandroid/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/modules/StatsD" name="crdroidandroid/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
 

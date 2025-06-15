@@ -17,12 +17,14 @@
   </project>
 
   <project path="packages/apps/crDroidSettings" name="crdroid-13-fork/android_packages_apps_crDroidSettings" remote="crdroid-fork" />
+  <project path="frameworks/av" name="crdroid-13-fork/android_frameworks_av" groups="pdk" remote="crdroid-fork" />
   <project path="frameworks/base" name="crdroid-13-fork/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
   <project path="frameworks/native" name="crdroid-13-fork/android_frameworks_native" groups="pdk" remote="crdroid-fork" />
   <project path="libcore" name="crdroid-13-fork/android_libcore" groups="pdk" remote="crdroid-fork" />
   <project path="packages/apps/Settings" name="crdroid-13-fork/android_packages_apps_Settings" groups="pdk-fs" remote="crdroid-fork" />
   <project path="packages/modules/Bluetooth" name="crdroid-13-fork/android_packages_modules_Bluetooth" groups="pdk" remote="crdroid-fork" />
   <project path="packages/modules/Wifi" name="crdroid-13-fork/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
+  <project path="packages/modules/Connectivity" name="crdroid-13-fork/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
   <project path="system/core" name="crdroid-13-fork/android_system_core" groups="pdk" remote="crdroid-fork" />
   <project path="packages/services/Telecomm" name="crdroid-13-fork/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
 
