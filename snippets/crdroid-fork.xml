@@ -28,5 +28,6 @@
   <project path="packages/modules/Connectivity" name="crdroid-13-fork/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
   <project path="system/core" name="crdroid-13-fork/android_system_core" groups="pdk" remote="crdroid-fork" />
   <project path="packages/services/Telecomm" name="crdroid-13-fork/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
+  <project path="vendor/lineage" name="crdroid-13-fork/android_vendor_crdroid" remote="crdroid-fork" />
 
 </manifest>
