@@ -29,6 +29,7 @@
   <project path="packages/apps/DocumentsUI" name="crdroid-13-fork/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs"  remote="crdroid-fork" />
   <project path="packages/apps/ManagedProvisioning" name="crdroid-13-fork/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="crdroid-fork"  />
   <project path="packages/apps/Nfc" name="crdroid-13-fork/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="crdroid-fork" />
+  <project path="packages/apps/Updater" name="crdroid-13-fork/android_packages_apps_Updater" remote="crdroid-fork" />
   <project path="packages/modules/CellBroadcastService" name="crdroid-13-fork/android_packages_modules_CellBroadcastService" groups="pdk" remote="crdroid-fork" />
   <project path="packages/modules/IntentResolver" name="crdroid-13-fork/android_packages_modules_IntentResolver" groups="pdk" remote="crdroid-fork" />
   <project path="packages/modules/Permission" name="crdroid-13-fork/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
