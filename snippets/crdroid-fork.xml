@@ -18,6 +18,7 @@
 
   <project path="art" name="crdroid-13-fork/android_art" groups="pdk" remote="crdroid-fork" />
   <project path="packages/apps/crDroidSettings" name="crdroid-13-fork/android_packages_apps_crDroidSettings" remote="crdroid-fork" />
+  <project path="packages/apps/GcamgoBSG" name="crdroid-13-fork/android_packages_apps_GcamgoBSG" remote="crdroid-fork" />
   <project path="external/bouncycastle" name="crdroid-13-fork/android_external_bouncycastle" groups="pdk" remote="crdroid-fork" />
   <project path="frameworks/av" name="crdroid-13-fork/android_frameworks_av" groups="pdk" remote="crdroid-fork" />
   <project path="frameworks/base" name="crdroid-13-fork/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
