@@ -33,7 +33,6 @@
   <project path="external/harfbuzz_ng" name="crdroidandroid/android_external_harfbuzz_ng" groups="pdk,qcom_msm8x26" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
   <project path="external/libhevc" name="crdroidandroid/android_external_libhevc" groups="pdk" remote="crdroid" />
-  <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" groups="pdk" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" groups="pdk" remote="crdroid" />
   <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" groups="pdk" remote="crdroid" />
   <project path="external/selinux" name="crdroidandroid/android_external_selinux" groups="pdk" remote="crdroid" />
@@ -64,7 +63,6 @@
   <project path="packages/apps/ExactCalculator" name="crdroidandroid/android_packages_apps_ExactCalculator" remote="crdroid" />
   <project path="packages/apps/FaceUnlockService" name="crdroidandroid/android_packages_apps_FaceUnlockService" remote="crdroid" />
   <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" groups="pdk-fs" remote="crdroid" />
-  <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" />
   <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="crdroid" />

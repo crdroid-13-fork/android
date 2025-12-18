@@ -17,14 +17,21 @@
   </project>
 
   <project path="art" name="crdroid-13-fork/android_art" groups="pdk" remote="crdroid-fork" />
-  <project path="external/bouncycastle" name="crdroid-13-fork/android_external_bouncycastle" groups="pdk" remote="crdroid-fork" />
+  <project path="cts" name="crdroid-13-fork/android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
   <project path="libcore" name="crdroid-13-fork/android_libcore" groups="pdk" remote="crdroid-fork" />
+  <!-- External -->
+  <project path="external/libjpeg-turbo" name="crdroid-13-fork/android_external_libjpeg-turbo" groups="pdk" remote="crdroid-fork" />
+  <project path="external/skia" name="crdroid-13-fork/android_external_skia" groups="pdk,qcom_msm8x26" remote="crdroid-fork"  />
+  <project path="external/bouncycastle" name="crdroid-13-fork/android_external_bouncycastle" groups="pdk" remote="crdroid-fork" />
+  <project path="external/dng_sdk" name="crdroid-13-fork/android_external_dng_sdk" groups="pdk" remote="crdroid-fork" />
   <!-- Frameworks -->
   <project path="frameworks/av" name="crdroid-13-fork/android_frameworks_av" groups="pdk" remote="crdroid-fork" />
   <project path="frameworks/base" name="crdroid-13-fork/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
   <project path="frameworks/native" name="crdroid-13-fork/android_frameworks_native" groups="pdk" remote="crdroid-fork" />
   <project path="frameworks/opt/telephony" name="crdroid-13-fork/android_frameworks_opt_telephony" groups="pdk" remote="crdroid-fork" />
   <!-- Apps & Modules -->
+  <project path="packages/apps/CertInstaller" name="crdroid-13-fork/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
+  <project path="packages/apps/Launcher3" name="crdroid-13-fork/android_packages_apps_Launcher3" remote="crdroid-fork" />
   <project path="packages/apps/crDroidSettings" name="crdroid-13-fork/android_packages_apps_crDroidSettings" remote="crdroid-fork" />
   <project path="packages/apps/GcamgoBSG" name="crdroid-13-fork/android_packages_apps_GcamgoBSG" remote="crdroid-fork" />
   <project path="packages/apps/Contacts" name="crdroid-13-fork/android_packages_apps_Contacts" groups="pdk-fs" remote="crdroid-fork" />
@@ -40,6 +47,7 @@
   <project path="packages/modules/Wifi" name="crdroid-13-fork/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
   <project path="packages/modules/Connectivity" name="crdroid-13-fork/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
   <!-- Services -->
+  <project path="packages/services/Mms" name="crdroid-13-fork/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
   <project path="packages/providers/MediaProvider" name="crdroid-13-fork/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
   <project path="packages/services/Telephony" name="crdroid-13-fork/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs"  remote="crdroid-fork" />
   <project path="packages/services/Telecomm" name="crdroid-13-fork/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
