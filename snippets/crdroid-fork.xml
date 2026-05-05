@@ -19,6 +19,7 @@
   <project path="art" name="crdroid-13-fork/android_art" groups="pdk" remote="crdroid-fork" />
   <project path="cts" name="crdroid-13-fork/android_cts" groups="cts,pdk-cw-fs,pdk-fs" remote="crdroid-fork" />
   <project path="libcore" name="crdroid-13-fork/android_libcore" groups="pdk" remote="crdroid-fork" />
+  <project path="lineage-sdk" name="crdroid-13-fork/android_lineage-sdk" remote="crdroid-fork" />
   <!-- External -->
   <project path="external/libjpeg-turbo" name="crdroid-13-fork/android_external_libjpeg-turbo" groups="pdk" remote="crdroid-fork" />
   <project path="external/skia" name="crdroid-13-fork/android_external_skia" groups="pdk,qcom_msm8x26" remote="crdroid-fork"  />
