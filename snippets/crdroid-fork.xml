@@ -23,6 +23,7 @@
   <!-- External -->
   <project path="external/libjpeg-turbo" name="crdroid-13-fork/android_external_libjpeg-turbo" groups="pdk" remote="crdroid-fork" />
   <project path="external/skia" name="crdroid-13-fork/android_external_skia" groups="pdk,qcom_msm8x26" remote="crdroid-fork"  />
+  <project path="external/libpng" name="crdroid-13-fork/android_external_libpng" groups="pdk" remote="crdroid-fork" />
   <project path="external/bouncycastle" name="crdroid-13-fork/android_external_bouncycastle" groups="pdk" remote="crdroid-fork" />
   <project path="external/dng_sdk" name="crdroid-13-fork/android_external_dng_sdk" groups="pdk" remote="crdroid-fork" />
   <!-- Frameworks -->
